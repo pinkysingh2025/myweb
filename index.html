@@ -1,84 +1,92 @@
-<!doctype html>
+<doctype! html>
 <html>
 <head>
-<title>Profile Page</title>
+<title>Home</title>
 </head>
 <style>
 
-
-/*  Tag Style    */
-
-header
-{
-width:95%;
-border:1px  black solid ;
-padding:0px;
-box-shadow:10px 10px 10px gray;
-display:flex;
-//flex-direction:column;
-//justify-content: center;
-//justify-content: space-between;
-//justify-content: space-around;
-justify-content: space-evenly;
-
-}
-
-
-
-#profilepic
-{
-width:150px;
-height:150px;
-border-radius:100px;
-
-}
 #menu
 {
-width:40%;
-height:50px;
-margin-top:2%;
-//background:teal;
-border:0px  black solid ;
-}
 
-#pic
-{
+padding:10px;
+color:black;
 //background:red;
-width:15%;
-text-align:center;
-padding:5px;
-//margin-top:10px;
-//margin-left:10px;
-margin:10px;
+height:30px;
+padding:10px;
+font-size:25px;
+margin-right:0px;
+margin-top:30px;
+word-spacing:30px;
+display:flex;
+justify-content:space-between;
 }
 
+.logo
+{
+margin-top:-30px
 
+}
+.main
+{
+display:flex;
+margin:10px;
+padding:10px;
+}
+.main1
+{
+width:50%;
+height:500px;
+font-size:30px;
+margin:auto;
+padding:10px;
+text-align:center;
+margin-top:10%;
+
+}
+
+.main2
+{
+width:50%;
+height:500px;
+
+}
 
 
 </style>
-<body bgColor='cyan'>
-<!--
-Creating header for my web Page 
--->
 
-<header>
-
-<div id="pic">
-<img  id="profilepic" src="images/pf1.jpg">
-<p>Tanishk Profile </p>
-</div>
+<body>
 
 <div id="menu">
-Home About Me   MyProject  MyChannel
+
+<div class="logo"><h3>LOGO</h3></div>
+
+<div class="menu">
+
+<a href="#">Home</a> 
+
+<a href="profile.html">About Me</a> 
+
+<a href="gallery.html">Projects</a> 
+
+<a href="#">My Portfolio</a> 
+
+<a href="#">Contact Me</a></div>
+
+
 </div>
 
 
-</header>
+<div class="main">
+<div class="main1"><h1>Welcome To My Website!</h1></div>
+
+<div class="main2"> <img src="girl7.jpg" width="100%" height="auto"> </div>
+
+
+</div>
+
 
 
 
 </body>
-</html>
 
 </html>
-
