@@ -1,50 +1,345 @@
-<!doctype html>
+<doctype! html>
 <html>
 <head>
-<title>Practise</title>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <style>
-header
+
+body
 {
-background:url(9.jpg);
-width:100%;
-height:600px;
+margin:0px;
+padding:0px;
 }
-nav ul
+
+#menu
 {
+background:black;
+color:white;
+height:30px;
+padding:20px;
+font-size:25px;
+margin-right:5px;
+margin-top:30px;
+word-spacing:30px;
+display:flex;
+justify-content:space-between;
+margin-top:0px;
+}
+
+.logo
+{
+margin-top:-30px
+
+}
+.main
+{
+display:flex;
+margin:10px;
+padding:10px;
+}
+.main1
+{
+width:50%;
+height:500px;
+font-size:30px;
+margin:auto;
+padding:10px;
+text-align:center;
+margin-top:10%;
+
+}
+
+.main2
+{
+width:50%;
+height:500px;
+
+}
+
+//div{border:1px black solid}
+
+
+
+.menu a
+{
+text-decoration:none;
+color:white;
+}
+.menu a:hover
+{
+background:white;
+color:black;
+padding:5px;
+margin:5px;
+}
+
+
+
+.menu a:active;
+{
+background:black;
+color:white;
+
+}
+
+
+
+
+#block
+{
+display:flex;
+justify-content:space-between;
+padding:5px
+margin:5px
+}
+
+
+.foot1
+{
+display:flex;
+}
+.foot2
+{
+
+width:33%;
+height:500px;
+text-align:center;
+
+}
+.foot3
+{
+
+width:33%;
+height:500px;
+text-align:center;
+
+
+
+}
+.foot3 ul li
+{
+list-style:none;
+text-align:center;
+margin:20px;
+padding:20px;
+
+}
+
+.foot4
+{
+
+width:33%;
+height:500px;
 text-align:center;
 padding:10px;
 margin:10px;
 
 }
-
-nav ul li
+.foot4 ul li
 {
-list-style:none;
+text-align:center;
+margin:20px;
 padding:20px;
-margin:10px;
-margin-top:3%;
+
 }
 
-nav ul li a
+.s1
+{
+text-align:center;
+margin:20px;
+padding:10px;
+word-spacing:20px;
+
+}
+
+
+.photo
+{
+margin-top:25%;
+width:200px;
+height:190px;
+
+border-radius:100px;
+transition:0.50s;
+
+}
+.photo:hover
+{
+transform:scale(1.50);
+
+}
+.foot5
+{
+text-align:right;
+margin:10px;
+padding:10px;
+}
+
+.practise
+{
+
+background-image:url(12.jpg);
+background-size:cover; 
+width:100%;
+height:200px;
+color:white;
+text-align:center;
+margin-top:-25px;
+
+}
+
+.pro
+{
+display:flex;
+flex-direction:wrap;
+margin:10px;
+padding:10px;
+}
+.pro1
+{
+width:33%;
+height:300px;
+border:3px black solid;
+color:black;
+margin:5px;
+padding:5px;
+text-align:center;
+border-radius:20px;
+transition:0.50s;
+
+
+}
+.pro2
+{
+width:33%;
+height:300px;
+border:3px black solid;
+margin:5px;
+padding:5px;
+text-align:center;
+border-radius:20px;
+transition:0.50s;
+
+
+
+
+}
+.pro3
+{
+width:33%;
+height:300px;
+border:3px black solid;
+margin:5px;
+padding:5px;
+text-align:center;
+border-radius:20px;
+transition:0.50s;
+
+
+
+}
+
+.pro4
+{
+width:33%;
+height:300px;
+border:3px black solid;
+margin:5px;
+padding:5px;
+text-align:center;
+border-radius:20px;
+transition:0.50s;
+
+
+
+}
+
+.poc
+{
+margin-top:30%;
+}
+.pro a
 {
 text-decoration:none;
-color:white;
-font-size:24px;
-transition:0.5s;
-}
+color:black;
 
-nav ul li:hover
+}
+.pro1:hover
 {
 background:black;
 }
-nav ul li a:hover
+.pro a:hover
 {
-color:cyan;
+text-decoration:none;
+color:white;
+}
+.pro2:hover
+{
+background:black;
+color:white;
+}
+.pro3:hover
+{
+background:black;
+color:white;
+}
+.pro4:hover
+{
+background:black;
+color:white;
 }
 
-//a:link{text-decoration:none; color:white; font-size:24px; transition:0.5s;}
-//a:visited{color:black;}
+.prac
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+	@media only screen and (max-width: 600px) 
+	{
+	background:red;
+	
+	}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+	{
+
+	}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+	{
+
+	}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+	{
+
+	}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+	{
+
+	}
+
+
+
+
+
 
 
 
@@ -53,144 +348,196 @@ color:cyan;
 
 <body>
 
-<header>
 
-<nav>
+
+<div id="menu">
+
+<div class="logo"><h3>LOGO</h3></div>
+
+<div class="menu">
+
+<a href="index.html" class="active">Home</a> 
+
+<a href="profile.html">About</a> 
+
+<a href="gallery.html">Projects</a> 
+
+<a href="practise.html">Practise</a> 
+
+<a href="#">Contact</a></div>
+
+
+</div>
+
+
+<div class="practise">
+<div class="prac">
+
+<h1>My Practise</h1>
+</div>
+
+
+</div>
+
+
+<div class="pro"><a href="menu.html">
+
+<div class="pro1">
+
+<div class="poc"><h4>Practise 1</h4>
+
+<h1>Menu</h1></a>
+
+</div>
+
+</div>
+<div class="pro2"><a href="listing.html">
+
+<div class="poc"><h4>Practise 2</h4>
+
+<h1>Listing</h1></a>
+
+</div>
+
+
+</div>
+<div class="pro3"><a href="table.html">
+<div class="poc"><h4>Practise 3</h4>
+
+<h1>Table</h1></a>
+
+</div>
+
+
+</div>
+<div class="pro4"><a href="banner.html">
+
+<div class="poc"><h4>Practise 4</h4>
+
+<h1>Animated Banner</h1></a>
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+<div class="pro">
+
+<div class="pro1"><a href="">
+
+<div class="poc"><h4>Practise 5</h4>
+
+<h1>Upcoming...</h1></a>
+
+</div>
+
+</div>
+<div class="pro2"><a href="">
+
+<div class="poc"><h4>Practise 6</h4>
+
+<h1>Upcoming...</h1></a>
+
+</div>
+
+
+</div>
+<div class="pro3"><a href="">
+<div class="poc"><h4>Practise 7</h4>
+
+<h1>Upcoming...</h1></a>
+
+</div>
+
+
+</div>
+<div class="pro4"><a href="">
+
+<div class="poc"><h4>Practise 8</h4>
+
+<h1>Upcoming...</h1></a>
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<footer>
+<div class="foot1">
+<div class="foot2">
+
+<a href="1.html"><img src="1.jpg" class="photo"></a>
+<h2>Pinky Singh</h2>
+
+
+
+</div>
+<div class="foot3">
+<h2>Quick Links</h2>
 <ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About Me</a></li>
-<li><a href="#">Projects</a></li>
-<li><a href="#">Practice</a></li>
-<li><a href="#">Contact</a></li>
-
+<li>Home</li>
+<li>About Me</li>
+<li>Gallery</li>
+<li>Portfolio</li>
+<li>Contact</li>
 
 
 </ul>
-</nav>
 
-</header>
+</div>
+<div class="foot4">
+<h2>Quick Links</h2>
+<div class="social">
+<div class="s1">
+<img src="icon1.png" width="20%"height="auto">
+<img src="icon1.png" width="20%"height="auto">
+</div>
+<div class="s1">
+<img src="icon1.png" width="20%"height="auto">
+<img src="icon1.png" width="20%"height="auto">
+</div>
+</div>
 
-<ol>
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ol>
-
-<ol type="A">
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ol>
-
-<ol type="a">
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ol>
-
-<ol type="i">
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ol>
-
-<ol type="I">
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ol>
-
-
-<ul>
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ul>
-
-
-<ul type="square">
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ul>
-
-
-<ul type="circle">
-<li>Delhi</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ul>
-
-
-<h1>Nested List</h1>
-
-<ul>
-<li>Delhi
-<ol type="1">
-<li>Dilshad Garden
-
-<ol type="a">
-<li>Dilshad Extension 1</li>
-<li>Dilshad Extension 2</li>
-<li>Dilshad Extension 3</li>
-<li>Dilshad Extension 4</li>
-<li>Dilshad Extension 5</li>
-
-</ol>
-
-
-</li>
-<li>Loni</li>
-<li>Shadara</li>
-<li>Noida</li>
-<li>Gurugram</li>
-
-</ol>
-
-</li>
-<li>Mumbai</li>
-<li>Gujarat</li>
-<li>Punjab</li>
-<li>Nanital</li>
-
-</ul>
+</div>
+</div>
 
 
 
+<div class="foot5">
+<h4>@designbypinkysingh</h4>
 
 
 
+</div>
+
+
+
+</footer>
 
 
 
 
 
 </body>
-
-
 
 </html>
