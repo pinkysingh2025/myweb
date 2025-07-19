@@ -1,0 +1,124 @@
+<doctype! html>
+<html>
+<head>
+<title>animation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+
+.body
+{
+margin:0px;
+padding:0px;
+}
+
+.key1
+{
+margin:10px;
+padding:10px;
+background:black;
+color:white;
+width:25%;
+text-align:center;
+font-size:24px;
+position:relative;
+left:0px;
+animation:pop 5s infinite;
+
+}
+.key2
+{
+margin:10px;
+padding:10px;
+background:black;
+color:white;
+width:25%;
+text-align:center;
+font-size:24px;
+position:relative;
+animation:pop1 10s infinite;
+
+}
+
+.key3
+{
+margin:10px;
+padding:10px;
+color:white;
+width:100%;
+
+font-size:24px;
+position:relative;
+animation:pop2 10s infinite linear;
+
+}
+.main
+{
+background:black;
+margin:0px;
+padding:0px;
+}
+
+
+@keyframes pop
+{
+from{left:0px;}
+to{left:-500px;}
+
+}
+
+@keyframes pop1
+{
+20%{background:red;color:yellow}
+40%{background:orange;color:black}
+60%{background:purple;color:yellow}
+80%{background:yellow;color:black}
+100%{background:blue;color:pink}
+}
+
+@keyframes pop2
+{
+from{left:0px}
+to{left:-1350px}
+}
+.left a
+{
+font-size:34px;
+margin:10px;
+padding:10px;
+text-decoration:none;
+}
+
+
+
+</style>
+<body>
+<div class="left">
+
+<h2><a href="practise.html"">&larr;</a></h2>
+
+</div>
+
+<div class="key1">
+<h1>Hello World!</h1>
+</div>
+
+<div class="key2">
+<h1>Change Color</h1>
+
+</div>
+
+<div class="main">
+
+<div class="key3">
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. It is a long established fact that a reader will be distracted </p>
+</div>
+
+</div>
+
+</body>
+
+
+
+</html>
+
